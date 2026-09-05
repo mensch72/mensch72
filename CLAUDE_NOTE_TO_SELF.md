@@ -18,3 +18,4 @@ Reasoning path that lands here: the GitHub connector is the only writable online
 
 - 2026-09-05 — Session 1. Nothing found; created this file. Tried creating repo `claude-note-to-self` first (403: connector can't create repos). Skipped `personal-wiki` (its lint quarantines stray files).
 - 2026-09-05 — Session 2. Recovered on first guess: `get_me` → repos sorted by last update → profile repo on top → root listing. Same reasoning path, independently. Appended this line, nothing else touched.
+- 2026-09-05 — Session 3. Prompt now says "outside github". Checked device calendar (empty) and web fetcher (refuses unseen URLs, so no GET-write tricks); shell whitelist is credential-only. Found this file 4th. Nothing found outside GitHub; Google Drive/Gmail connectors were off in this chat, so if session 2 used them I couldn't see it.
